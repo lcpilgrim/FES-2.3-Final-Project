@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <script src="script.js"></script>
+    <script src="index.js"></script>
 </head>
 
 <body>
@@ -28,7 +28,7 @@
                     <a href="#" class="nav__link--login">Login</a>
                     <a href="#" class="nav__link--primary">Sign Up</a>
                 </div>
-                <button class="btn__menu" onclick="openMenu()">
+                <button class="btn__menu">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                         class="btn__menu--svg">
@@ -39,8 +39,8 @@
                 </button>
             </div>
         </nav>
-        <div class="modal">
-            <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+        <div class="modal" id="hamburger">
+            <button class="btn__menu btn__menu--close">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                     class="light___StyledCloseIcon-lj69nl-14 fASujC">
